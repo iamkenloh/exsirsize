@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExsirsizeParent/ExsirsizeParent.iml" filepath="$PROJECT_DIR$/ExsirsizeParent/ExsirsizeParent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExsirsizeParent/RestServices/RestApi/RestApi.iml" filepath="$PROJECT_DIR$/ExsirsizeParent/RestServices/RestApi/RestApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExsirsizeParent/RestServices/RestService/RestService.iml" filepath="$PROJECT_DIR$/ExsirsizeParent/RestServices/RestService/RestService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExsirsizeParent/RestServices/RestServices.iml" filepath="$PROJECT_DIR$/ExsirsizeParent/RestServices/RestServices.iml" />
+    </modules>
+  </component>
+</project>
+
