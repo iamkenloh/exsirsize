@@ -30,6 +30,7 @@ public class UserResourceImpl implements UserResource{
 
     @Override
     public UserResponse logIn(String username, String password) {
+        logger.info("Log-in request for: username="+username+", password={REDACTED}");
         UserResponse response = new UserResponse();
         if("meziskeen".equals(username) && "guest".equals(password)){
             response.setUsername(username);
