@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExsirsizeParent/ExSirSizeUI/ExSirSizeUI.iml" filepath="$PROJECT_DIR$/ExsirsizeParent/ExSirSizeUI/ExSirSizeUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExsirsizeParent/Exsirsize/Exsirsize.iml" filepath="$PROJECT_DIR$/ExsirsizeParent/Exsirsize/Exsirsize.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExsirsizeParent/ExsirsizeParent.iml" filepath="$PROJECT_DIR$/ExsirsizeParent/ExsirsizeParent.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExsirsizeParent/RestServices/RestApi/RestApi.iml" filepath="$PROJECT_DIR$/ExsirsizeParent/RestServices/RestApi/RestApi.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExsirsizeParent/RestServices/RestService/RestService.iml" filepath="$PROJECT_DIR$/ExsirsizeParent/RestServices/RestService/RestService.iml" />

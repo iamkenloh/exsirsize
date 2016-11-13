@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<head>
+    <title>Konnichi wa Sei Kai</title>
+</head>
+<body>
+<div class="Title"><h1>Konnichi wa Sei Kai</h1></div>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+    <input ng-model="val">
+</div>
+
+<script>
+
+    var app = angular.module("myApp", []);
+
+    app.controller("myCtrl", function($scope) {
+        $scope.firstName = "Ken";
+        $scope.lastName = "Loh";
+        $scope.val = "Ken Loh";
+
+
+    });
+
+</script>
+
+</body>
+</html>

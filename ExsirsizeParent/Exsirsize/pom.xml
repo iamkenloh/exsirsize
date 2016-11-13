@@ -7,40 +7,18 @@
         <groupId>ExsirsizeParent</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <packaging>pom</packaging>
-
-
-
-    <modules>
-        <module>RestApi</module>
-        <module>RestService</module>
-    </modules>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>RestServices</artifactId>
+    <artifactId>Exsirsize</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>${spring-boot-version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.ws.rs</groupId>
-            <artifactId>javax.ws.rs-api</artifactId>
-            <version>2.0</version>
+            <version>1.2.1.RELEASE</version>
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 
 </project>

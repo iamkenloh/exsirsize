@@ -22,6 +22,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="Exsirsize" />
+        <module name="ExSirSizeUI" />
         <module name="RestApi" />
         <module name="RestService" />
       </profile>
