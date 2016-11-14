@@ -3,16 +3,30 @@
 <head>
     <title>Hello AngularJS</title>
     <link href="css/angular-bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/ess-app.css">
 </head>
 <body ng-app="essApp">
 
 <nav class="navbar navbar-default navbar-fixed-top">
-    <div>
-        <a class="navbar-brand" href="#/">ExSirSize</a>
-        <a class="nav navbar-nav" href="#home">Home</a><br>
-        <a class="nav navbar-nav" href="#settings">Settings</a>
-        <a class="nav navbar-nav" href="#login">Login</a>
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#/" class="navbar-left">
+            <img src="images/ess-logo-master.jpg" style="
+                    width: 40px; height: =40px;
+                    padding-top: 5px; padding-bottom: 5px;"></a>
+            <a class="navbar-brand" href="#/">&nbsp;&nbsp;ExSirSize</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a class="nav navbar-nav" href="#home">Home</a></li>
+            <li><a class="nav navbar-nav" href="#settings">Settings</a></li>
+            <li><a class="nav navbar-nav" href="#login">Login</a></li>
+
+        </ul>
+
     </div>
+
+
+
 </nav>
 <div class="container">
     <div ng-view></div>
