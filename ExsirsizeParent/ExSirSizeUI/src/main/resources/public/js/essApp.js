@@ -12,6 +12,10 @@ app.controller("settingsController", function($scope, UserService){
 
 });
 
+app.controller("workoutController", function($scope, UserService){
+
+});
+
 app.controller("loginController", function($scope, $location, UserService){
     var vm = this;
     vm.dataLoading = false;
@@ -47,6 +51,10 @@ app.config(function($routeProvider){
             templateUrl : "views/home.html",
             controller : "homeController as vm"
         })
+        .when("/workout", {
+            templateUrl : "views/home.html",
+            controller : "workoutController as vm"
+        })
         .when("/settings", {
             templateUrl : "views/settings.html",
             controller: "settingsController as vm"
@@ -60,4 +68,5 @@ app.config(function($routeProvider){
             controller: "mainController as vmßß"
         });
 });
+
 
